@@ -22,25 +22,6 @@ section {
     height: 100px;
 }
 
-/* menu flutuante */
-
-header ul {
-    position: fixed;
-    list-style: none;
-    text-decoration: none;
-}
-header li {
-    display: inline-block;
-    padding: 15px;
-    font-size: 17px;
-    cursor: pointer;
-    color: white;
-}
-header li:hover {
-    color: orange;
-}
-
-
 /* apresentação */
 .title-site {
     display: flex;
@@ -50,6 +31,17 @@ header li:hover {
     height: 100vh;
 }
 
+#p2{
+    font-size: 16px;
+}
+#p2 a{
+    text-decoration: none;
+    color: wheat;
+}
+#p2 a:hover{
+    color: orange;
+    transition: 0.3s;
+}
 #azul1 {
     color: blue;
 }
@@ -100,7 +92,6 @@ header li:hover {
   color: #facc15; 
   font-size: 18px;
 }
-
 .texto button {
   margin-top: 20px;
   background-color: #facc15;
@@ -111,9 +102,16 @@ header li:hover {
   cursor: pointer;
   transition: 0.5s;
 }
-
 .texto button:hover {
     color: blue;
+}
+#email a{
+    text-decoration: none;
+    color: orange;
+}
+#email a:hover {
+    color: green;
+    transition: 0.4s;
 }
 
 /* skills */
@@ -164,4 +162,17 @@ footer {
     text-align: center;
     align-items: center;
     padding-top: 30px;
+}
+
+
+
+/* aulas de js */
+#area {
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 20px;
 }
